@@ -30,3 +30,4 @@ INCLUDEPATH += $$PWD/../../../../usr/local/include
 DEPENDPATH += $$PWD/../../../../usr/local/include
 
 unix:!macx: PRE_TARGETDEPS += $$PWD/../../../../usr/local/lib/libcurlpp.a
+CONFIG += c++11
